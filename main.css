@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*start*/
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+
+body{
+    font-family: "Bruno Ace SC", "微軟正黑", serif;
+    line-height: 1.5;
+	font-size: 24px; 
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+a{
+	display: inline-block;
+	text-decoration: none; 
+}
+
+.d-flex{
+	display: flex;
+}
+.mr6{
+	margin-right: 24px;
+}
+
+.ml6{
+	margin-left: 24px;
+}
+.mt4{
+	margin-top:16px;
+}
+
+.mt6{
+	margin-top:24px;
+}
+
+.mt8{
+	margin-top: 32px;
+}
+
+.mt9{
+	margin-top: 36px;
+}
+
+.mt18{
+	margin-top: 72px;
+}
+
+.mt40{
+	margin-top: 160px;
+}
+
+.mb8{
+	margin-bottom: 32px;
+}
+
+.container{
+	width:1296px;
+}
+
+.header{
+	background-color: black;
+	color:white;
+	justify-content:center;
+}
+
+.menu{
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu li{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.menu a{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: white;
+}
+
+.banner{
+	background-color: black;
+	justify-content:center;
+}
+
+.banner .container{
+	flex-direction: row;
+	align-items: center;
+}
+
+.people-container{
+	flex-direction: column;
+}
+
+h1{
+	color:#00FFA3;
+	font-size: 128px;
+	text-align: right;
+}
+
+h2{
+	color: white;
+	font-size: 64px;
+}
+
+.people-container p{
+	color: white;
+	font-size: 64px;
+}
+
+.tx-r{
+	text-align: right;
+}
+
+.tx-l{
+	text-align: left;
+}
+
+.btn{
+	width: 185px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 32px;
+
+	font-size: 16px;
+}
+
+.introduce{
+	justify-content: center;
+	background-image: url(./img/background-img.png);
+	background-size: cover;
+	background-position: center center;
+}
+
+.introduce .container{
+	margin-top: 160px;
+	margin-bottom: 160px;
+}
+
+.introduce p{
+	color: white;
+}
+
+.introduce-container{
+	margin-right: 24px;
+}
+
+
+.about-me{
+	justify-content: center;
+}
+
+.card-container{
+	width:50%;
+	flex-wrap:wrap;
+}
+
+.card{
+	width:306px;
+	border:1px solid #E3E3E3;
+	padding: 16px 16px 16px 16px;
+}
+
+.card p{
+	font-size: 16px;;
+}
+
+.about-me .container{
+	margin-top: 160px;
+	margin-bottom: 160px;
+}
+
+.abbout-me-container{
+	padding-left: 134px;
+	flex-direction: column;
+	justify-content: start;
+	width:50%;
+}
+
+.pic{
+	flex-direction: row;
+}
+
+.des-display{
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.abbout-me-container h2{
+	color:black;
+}
+
+.contact-me{
+	background:linear-gradient(#050014 100%, #01021EE3 89%);
+	justify-content: center;
+}
+
+.contact-me .container{
+	align-items: center;
+	margin-top: 96px;
+	margin-bottom: 96px;
+}
+
+.icon{
+	padding-left: 113px;
+}
+
+.icon img:hover{
+	filter:drop-shadow(0px 0px 10px #9094FF);
+}
+
+.project{
+	justify-content: center;
+}
+
+.project-tilte .title-space{
+	width:40%;
+}
+.project-tilte .title{
+	width:60%;
+}
+
+.project .container{
+	margin-top: 160px;
+	margin-bottom: 160px;
+	flex-direction: column;
+}
+
+.project .container  h2{
+	color: black;
+}
+
+.desc{
+	flex-direction: column;
+}
+
+.desc p{
+	font-size: 16px;
+}
+
+.desc .btn{
+	background-color: black;
+	color: white;
+}
+
+.footer{
+	background-color: black;
+	justify-content: center;
+}
+
+.footer .container{
+	justify-content: center;
+}
+.footer p{
+	color:white;
+	font-size: 16px;
+	padding-top: 40px;
+	padding-bottom: 40px;	
+}
+
+
